@@ -5,8 +5,34 @@
     box-sizing: border-box;
 
 }
+body{
+    background-color: #148c03;
+}
+.ManILoveFauna{
+    height: 20px;
+    background-color: #0c5302;
+}
+header{
+    background-color: #0c5302;
+    display: flex;
+    color: white;
+    justify-content: center;
+    heigth: auto;
 
-.mijheader {
+    div{
+        margin: 10px;
+    }
+
+    a{
+        color: white;
+        background-color: #148c03;
+        margin: 10px;
+        border-radius: 10px;
+        padding: 5px;
+        text-decoration: none;
+    }
+}
+.mijarticle {
     background-image: url("../fotosCV/ikachtergrond.jpg");
     background-size: cover;
     display: flex;
@@ -382,6 +408,195 @@
     .invis1{
         opacity: 0;
         margin: 0;
+    }
+}
+.portfolio{
+    background-color: #148c03;
+    .hoofd{
+        font-size: 40px;
+        background-color: #0c5302;
+        text-align: center;
+        color: white;
+        h1{
+            text-align: center;
+            padding: 10px;
+        }
+    }
+    .waarom{
+        margin-bottom: 25vh;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        div{
+            margin: 50px;
+            margin-right: 20vh;
+            margin-left: 20vh;
+            background-color: #0c5302;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    }
+    .competenties_programmeur{
+        margin-bottom: 25vh;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        .divh2{
+            margin: 50px;
+            margin-right: 20vh;
+            margin-left: 20vh;
+            background-color: #0c5302;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .divp{
+            margin: 50px;
+            margin-right: 20vh;
+            margin-left: 20vh;
+            background-color: #0c5302;
+            padding: 20px;
+            border-radius: 10px;
+            p{
+                text-align: left;
+            }
+        }
+    }
+    .concrete_voorbeelde{
+        margin-bottom: 25vh;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        .divh2{
+            margin: 50px;
+            margin-right: 20vh;
+            margin-left: 20vh;
+            background-color: #0c5302;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .divp{
+            margin: 50px;
+            margin-right: 20vh;
+            margin-left: 20vh;
+            background-color: #0c5302;
+            padding: 20px;
+            border-radius: 10px;
+            p{
+                text-align: left;
+            }
+        }
+    }
+    .opdrachten{
+        margin-bottom: 25vh;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        .divh2{
+            margin: 50px;
+            margin-right: 20vh;
+            margin-left: 20vh;
+            background-color: #0c5302;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .divp{
+            margin: 50px;
+            margin-right: 20vh;
+            margin-left: 20vh;
+            background-color: #0c5302;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    }
+    .reflectie{
+        background-color: #148c03;
+        margin-bottom: 25vh;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        .divh2{
+            margin: 50px;
+            margin-right: 20vh;
+            margin-left: 20vh;
+            background-color: #0c5302;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .divp{
+            margin: 50px;
+            margin-right: 20vh;
+            margin-left: 20vh;
+            background-color: #0c5302;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    }
+    .POP-sessies{
+        background-color: #148c03;
+        margin-bottom: 25vh;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        .divh2{
+            margin: 50px;
+            margin-right: 20vh;
+            margin-left: 20vh;
+            background-color: #0c5302;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .divp{
+            margin: 50px;
+            margin-right: 20vh;
+            margin-left: 20vh;
+            background-color: #0c5302;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    }
+    .X-factor{
+        background-color: #148c03;
+        margin-bottom: 10vh;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        .divh2{
+            margin: 50px;
+            margin-right: 20vh;
+            margin-left: 20vh;
+            background-color: #0c5302;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .divp{
+            margin: 50px;
+            margin-right: 20vh;
+            margin-left: 20vh;
+            background-color: #0c5302;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    }
+}
+.logboek{
+    .hoofd2{
+        font-size: 40px;
+        color: white;
+        background-color: #0c5302;
+        h1{
+            text-align: center;
+            padding: 10px;
+        }
+    }
+    .foto{
+        div{
+            margin: 20vh;
+            margin-top: 10vh;
+            margin-bottom: 10vh;
+            img{
+                max-width: 100%;
+            }
+        }
     }
 }
 .backtotop{
